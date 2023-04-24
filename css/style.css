@@ -61,7 +61,18 @@ html {
     border-radius: 5px;
 }
 
-.btn p a{
+.btn2{
+    width: 125px;
+    background-color: #002D62;
+    padding: 5px 0px 5px;
+    border-radius: 2.5px;
+    text-align: center;
+    justify-self: right;
+    grid-column: 2;
+    justify-self: center;
+}
+
+.btn p a, .btn2 a{
     padding-left: 5px;
     text-decoration: none;
     color: white;
@@ -144,4 +155,36 @@ footer h4{
     text-align: center;
     margin-top: 100px;
     margin-left: 30px;
+}
+
+.src h2{
+    text-align: center;
+}
+
+.src #src-statement{
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.options{
+    background-color: #7CB9E8;
+    width: 750px;
+    margin: 0 auto;
+    padding: 0px 0px 5px 2.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid .sub{
+    grid-column: 1;
+    justify-self: center;
 }
