@@ -7,11 +7,40 @@
     <title>PureBlue</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600&display=swap');
+  
+        p, li{
+        font-family: 'Jost', sans-serif;
+      }
+  
+        h1{
+          font-family: 'Jost', sans-serif;
+        }
+  
+        h2{
+          font-family: 'Jost', sans-serif;
+        }
+  
+        h3{
+          font-family: 'Jost', sans-serif;
+        }
+  
+      </style>
+
   </head>
 
   <body>
-    <header>
-        <img src="img/PUREBLUELOGO.png" width="100px">
+    <header id="top">
+        <div class="name">
+            <a href="index.html"><img src="img/logofinal.png" width="100px"></a>
+            <h1><a href="index.html">PureBlue</a></h1>
+        </div>
         <ul class="nav">
             <li>About</li>
             <li>Our Goal</li>
@@ -91,40 +120,38 @@
             </div> 
         </section>
 
+        <h1 id="org">Here are several organizations you can lend a helping hand to to fight this social cause.</h1>
+
         <section class="donate">
-            <h1>Here are several organizations you can lend a helping hand to to fight this social cause.</h1>
             <div class="card">
                 <!--organization logo-->
-                <img src="">
-                <h3>The Ocean Cleanup</h3>
+                <img class="orglogo" src="img/oceancleanup.png">
                 <p class="btn2"><a href="https://theoceancleanup.com/donate/">Donate</a></p>
             </div>
 
             <div class="card">
                 <!--organization logo-->
-                <img src="">
-                <h3>Save Our Shores</h3>
-                <p class="btn2"><a href="https://saveourshores.org/donate-to-save-our-shores/">Donate</a></p>
+                <img class="orglogo" src="img/saveourshores.png">
+                <p class="btn2" id="fix"><a href="https://saveourshores.org/donate-to-save-our-shores/">Donate</a></p>
             </div>
 
             <div class="card">
                 <!--organization logo-->
-                <img src="">
-                <h3>Oceana</h3>
+                <img class="orglogo" src="img/oceana.png">
                 <p class="btn2"><a href="https://oceana.org/ways-to-give/ways-to-give/">Donate</a></p>
             </div>
         </section>
         
     </main>
-    <footer>
-        <h4>
-            Follow Us on our Social Media!
-        </h4>
-       <ul>
-        <li><!--IG ICON--></li>
-        <li><a href="resource.html">Resources</a></li>
-        <li>Back to the Top</li>
-       </ul>
-    </footer>
+    <footer id="social">
+            <h3>
+                Follow Us on our Social Media!
+            </h3>
+           <ul class="nav3">
+            <li><i style="font-size:24px" class="fa">&#xf16d;</i></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="#top">Back to the Top</a></li>
+           </ul>
+        </footer>
     </body>
     </html>
