@@ -8,6 +8,7 @@ html {
   header{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
 
   .name{
@@ -43,8 +44,7 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 100%;
-    background-image: ;
+    background-size: cover;
 }
 
 .herotitle{
@@ -205,13 +205,16 @@ footer h3{
 
 #org{
     text-align: center;
+    width: 675px;
+    margin: 0 auto;
+    margin-top:65px;
 }
 
 .donate{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 75px;
 }
 
 .orglogo{
@@ -221,5 +224,33 @@ footer h3{
 
 #fix{
     margin: 0 auto;
+}
+
+@media(max-width: 400px){
+    #top{
+        width: 100%;
+    }
+
+    .facts{
+        grid-template-columns: 1fr;
+        margin-left: 200px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .us{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+
+    #intro{
+        margin: 0 auto;
+    }
+
+    #microplastics{
+        font-size: 18px;
+        margin: 0 auto;
+        width: 400px;
+    }
 }
 
