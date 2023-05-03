@@ -5,6 +5,12 @@ html {
     box-sizing: inherit;
   }
 
+  img,video{
+    width: auto; 
+    height: auto;
+    max-width: 100%; 
+  }
+
   header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -241,49 +247,97 @@ footer h3{
 }
 
 @media(max-width: 400px){
-    #top{
-        width: 100%;
+
+    .name h1{
+        font-size: 0px;
+    }
+
+    .nav li{
+        font-size: 12px;
+        padding-right: 15px;
+    }
+
+    .hero{
+        height: 250px;
+    }
+
+    .herotitle{
+        padding-left: 15px;
+    }
+
+    .herotitle h1{
+        font-size: 45px;
+    }
+
+    .herotitle h3{
+        font-size: 15px;
+        color: white;
+    }
+
+    .btn{
+        width: 150px;
+    }
+
+    .btn p a{
+        font-size: 13px;
     }
 
     .facts{
         grid-template-columns: 1fr;
-        margin-left: 200px;
-        font-size: 20px;
-        width: 400px;
+        font-size: 12px;
+        width: 275px;
+        padding-right: 75px;
     }
 
     .us{
         grid-template-columns: 1fr;
+    }
+
+    .us p{
+        font-size: 18px;
+        width: 300px;
         margin: 0 auto;
     }
+    
 
     #intro{
         margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        font-size: 30px;
     }
 
     #microplastics{
-        font-size: 18px;
+        font-size: 15px;
         margin: 0 auto;
-        width: 400px;
+        width: 350px;
     }
 
-    #spread{
-        text-align: center;
-        
+    #intro, #microplastics{
+        margin: 0 auto;
     }
 
-    .nav2{
+    .nav2, .nav2 h3{
         grid-template-columns: 1fr;
     }
 
-    .nav2 p{
-        margin: 0 auto;
-        width: 500px;
+    #one{
+        margin-right: 500px;
+    }
+
+    #two{
+        width: 315px;
+        margin: 50px;
     }
 
     .smallbtn{
         text-align: center;
-        margin: 0 auto;
     }
+
+    footer{
+        margin-right: 30px;
+    }
+
+
 }
 
