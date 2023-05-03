@@ -9,10 +9,16 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    margin-bottom: 15px;
   }
 
   .name{
     display: flex;
+  }
+
+  .name h1{
+    padding-left: 10px;
+    padding-top: 22.5px;
   }
 
   .name h1 a{
@@ -21,18 +27,20 @@ html {
   }
 
   .name img{
-    width: 125px;
+    width: 100px;
   }
 
   .nav{
     display: flex;
     justify-content: right;
     margin-right: 10px;
+    padding-top: 37px;
 }
 
 .nav li{
     padding-left: 25px;
     list-style: none;
+    font-size: 18px;
 }
 
 .nav li a{
@@ -44,7 +52,9 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-size: cover;
+    background: url("../img/ocean.avif");
+    background-position-y: 30%;
+    background-size: 100%;
 }
 
 .herotitle{
@@ -59,6 +69,7 @@ html {
 
 .btn{
     grid-column: 2;
+    grid-row: 2;
     width: 175px;
     color: white;
     background: #002D62;
@@ -88,6 +99,8 @@ html {
 
 #intro{
     text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 #microplastics{
@@ -121,6 +134,7 @@ html {
     grid-gap: 35px;
     text-align: left;
     margin-left: 85px;
+    width: 100%;
 }
 
 #spread{
@@ -251,6 +265,25 @@ footer h3{
         font-size: 18px;
         margin: 0 auto;
         width: 400px;
+    }
+
+    #spread{
+        text-align: center;
+        
+    }
+
+    .nav2{
+        grid-template-columns: 1fr;
+    }
+
+    .nav2 p{
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .smallbtn{
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
