@@ -77,7 +77,7 @@ html {
 }
 
 .herotitle h1{
-    font-size: 67px;
+    font-size: 72px;
     margin-bottom: 0px;
 }
 
@@ -125,15 +125,23 @@ html {
     margin: 0 auto;
 }
 
+#ad{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .us{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
-    margin-bottom: 75px;
+    margin-top: 100px;
+    margin-bottom: 0px;
 }
 
 .us h2{
-    font-size: 62px;
+    font-size: 80px;
     justify-self: center;
 }
 
@@ -151,11 +159,15 @@ html {
     text-align: left;
     margin-left: 85px;
     width: 100%;
+    margin-top: 215px;
+    margin-bottom: 225px;
 }
 
 #spread{
+    font-size: 50px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .nav2{
@@ -171,6 +183,7 @@ html {
 
 .smallbtn{
     text-align: center;
+    margin-top: 50px;
 }
 
 .smallbtn a{
@@ -298,8 +311,11 @@ footer h3{
     .facts{
         grid-template-columns: 1fr;
         font-size: 12px;
-        width: 275px;
-        padding-right: 75px;
+        width: 400px;
+        padding-right: 150px;
+        margin-right: 200px;
+        margin-left: 75px;
+        font-size: 15px;
     }
 
     .us{
@@ -336,6 +352,7 @@ footer h3{
 
     #one{
         margin-right: 500px;
+        font-size: 30px;
     }
 
     #two{
@@ -395,6 +412,16 @@ footer h3{
 
     #ocl{
         margin-top: 0px;
+    }
+
+    #ad{
+        width: 375px;
+        height: 300px;
+        line-height: 0;
+    }
+
+    .us h2{
+        font-size: 45px;
     }
 
 }
