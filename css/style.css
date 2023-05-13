@@ -368,10 +368,9 @@ footer h3{
         margin-right: 30px;
     }
 
-    #src-statement{
-        font-size: 13px;
-        margin-left:50px;
-        margin-right: 50px;
+   .src #src-statement{
+        font-size:14px;
+        width: 325px;
     }
 
     .options{
