@@ -190,8 +190,9 @@ html {
     color: white;
     text-decoration: none;
     background-color: #002D62;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 20px 10px 20px;
     border-radius: 2.5px;
+    font-size: 18px;
 }
 
 .nav3 li, .nav3 a{
